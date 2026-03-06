@@ -16,6 +16,7 @@ const Countries = () => {
       const res = await axios.get(
         "https://restcountries.com/v3.1/all?fields=name,capital,population,area,region,flags,continents,translations"
       );
+      console.log(res.data[0]);
       setData(res.data);
     } catch (error) {
       console.error("Erreur API :", error);
