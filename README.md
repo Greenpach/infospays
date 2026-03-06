@@ -30,7 +30,7 @@ Application web développée avec React.js permettant d'afficher et filtrer les 
 Clone le projet :
 
 bash
-git clone https://github.com/ton-username/nom-du-repo.git
+git clone https://github.com/Greenpach/infospays
 
 Installe les dépendances :
 
